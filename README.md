@@ -1,23 +1,24 @@
 # Heaps-1
 
 ## Problem1 
-Kth Smallest Element in a Sorted Matrix (https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
-Given a n x n matrix where each of the rows and columns are sorted in ascending order, find the kth smallest element in the matrix.
+Kth largest in Array (https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
-Note that it is the kth smallest element in the sorted order, not the kth distinct element.
+Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
-Example:
+Example 1:
 
-matrix = [
-   [ 1,  5,  9],
-   [10, 11, 13],
-   [12, 13, 15]
-],
-k = 8,
+Input: [3,2,1,5,6,4] and k = 2
 
-return 13.
-Note: 
-You may assume k is always valid, 1 ≤ k ≤ n2.
+Output: 5
+
+Example 2:
+
+Input: [3,2,3,1,2,4,5,5,6] and k = 4
+
+Output: 4
+
+Note:
+You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 ## Problem2
 
